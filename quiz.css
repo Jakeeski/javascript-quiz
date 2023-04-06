@@ -1,0 +1,33 @@
+.option-container {
+    background-color: blue;
+    color:#ff6600;
+    border-radius: 5px;
+    border-color: blue;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.option-container:hover{
+    background-color: white;
+}
+#question {
+    margin-bottom: 20px;
+}
+.container-quiz {
+    font-size: 35px;
+    color: White;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+#player-info {
+    display: flex;
+    flex-direction: column;
+}
+#question-progress{
+    background-color: green;
+    color: red;
+}

@@ -1,0 +1,35 @@
+:root {
+    background-color: #474747;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size:60px;
+    color: #ff6600;
+    margin-bottom:60px;
+}
+
+.container-home {
+    font-size: 40px;
+    color: White;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.button {
+    font-size: 30px;
+    color: #000000;
+    background: purple;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
