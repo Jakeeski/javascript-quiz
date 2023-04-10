@@ -9,6 +9,7 @@
 }
 
 h1 {
+    font-family: 'Press Start 2P';
     font-size:60px;
     color: #ff6600;
     margin-bottom:60px;
@@ -26,6 +27,7 @@ h1 {
 }
 
 .button {
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     color: #000000;
     background: purple;

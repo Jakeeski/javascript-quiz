@@ -5,6 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>End of Totally Unbiased Quiz</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div id="end">
+        <h1 id="finalScore">0</h1>
+        <form class="score-container">
+          <h2>Put your initials below</h2>
+          <input
+            type="text"
+            name="name"
+            id="initials"
+            placeholder="Click Here"
+          />
+          <button
+            class="button"
+            id="saveScoreButton"
+            type="submit"
+            onClick="saveHighScore(event)"
+          >
+            Save
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
 </html>

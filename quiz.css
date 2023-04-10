@@ -1,8 +1,6 @@
 .option-container {
     background-color: blue;
     color:#ff6600;
-    border-radius: 5px;
-    border-color: blue;
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -30,4 +28,8 @@
 #question-progress{
     background-color: green;
     color: red;
+}
+.time {
+    font-size:100px;
+    color:#ff6600;
 }
